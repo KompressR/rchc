@@ -14,7 +14,7 @@ header('Content-Security-Policy: default-src \'self\';');
 // MySQL Settings
 	$myshost = "localhost"; // MySQL Database Host Address
 	$mysuser = "thnkhost_clients"; // MySQL Username
-	$myspass = "IHaveAnAchillesHeel447"; // MySQL Password
+	$myspass = "REDACTED"; // MySQL Password
 	$mysdb = "thnkhost_clientdb"; // MySQL Database
 // Control Panel Settings - Please do not change these unless you know what you are doing.
 	$logindb = "wm_login"; // Table For The Login Script
@@ -49,4 +49,5 @@ $db = mysqli_connect($myshost, $mysuser, $myspass, $mysdb);
 if (!$db) {
 	error_log('Database connection failed');
 	exit('Internal server error');
+
 }
