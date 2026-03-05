@@ -13,9 +13,9 @@ header('Content-Security-Policy: default-src \'self\';');
 	$passscript = "/home/thnkhost/public_html/wellandmusic.com/cp/password_protect.php";
 // MySQL Settings
 	$myshost = "localhost"; // MySQL Database Host Address
-	$mysuser = "thnkhost_clients"; // MySQL Username
+	$mysuser = "REDACTED"; // MySQL Username
 	$myspass = "REDACTED"; // MySQL Password
-	$mysdb = "thnkhost_clientdb"; // MySQL Database
+	$mysdb = "REDACTED"; // MySQL Database
 // Control Panel Settings - Please do not change these unless you know what you are doing.
 	$logindb = "wm_login"; // Table For The Login Script
 #	$mailinglistdb = "mailinglist"; // Table For The Mailing List Script
@@ -51,3 +51,4 @@ if (!$db) {
 	exit('Internal server error');
 
 }
+
