@@ -1,0 +1,1 @@
+			<nav><div><a href="<?php echo $mploc; ?>">Home</a></div><div><a href="news.php">News</a></div><div><a href="events.php">Shows</a></div><div><a href="#">Gallery</a></div><div><a href="/irc">Board</a></div></div><div><a href="#">Links</a></div><div><a href="#">Contact</a></div></nav>

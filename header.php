@@ -1,0 +1,1 @@
+			<header><img src="images/header.png" alt="<?php $site_title; ?>"></header>

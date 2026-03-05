@@ -1,0 +1,19 @@
+html 					{overflow-y: scroll; overflow-y: scroll;} /* Keeps scrollbar on page always, prevents left-right shifting on centered pages */
+body					{background-color: #222222; color: white; margin: 0 auto;}
+img						{border: 0px;} /* Compatibility Fix */
+a:link					{color: white;}
+a:visited				{color: white;}
+a:active				{color: gray;}
+a:hover					{color: gray;}
+h1 						{} /* Main Titles */
+h2 						{} /* Sub Titles */
+header					{text-align: center; font-size: 1.2em; padding-top: 5px;}
+nav						{padding-top: 5px; padding-bottom: 5px; text-align: center; display: flex; justify-content: center;}
+nav div					{text-align: center; width: 105px;}
+footer					{text-align: center;}
+main					{width: 1620px; max-width:100%; display: flex; flex-wrap: wrap; justify-content: center; margin: 0 auto;} /* Left and right margins must be set to "auto" to center */
+.pimg					{height: 875px; display: inline-block; background-color: #222222; padding: 1px 4px; margin: 2px;}
+.pimg div				{display: flex; flex-direction: column; justify-content: space-around;}
+.pimg div div			{text-align: center; font-family: sans-serif; font-size: 1em;}
+.pimg div div div		{height:875px;}
+.pimg div div div img	{width:630px;}

@@ -1,0 +1,33 @@
+html 				{overflow-y: scroll; overflow-x: auto;}  /* Keeps scrollbar on page always, prevents left-right shifting on centered pages */
+body			 	{font-family: arial; color: #FFFFFF; font-size: .75em; background-color: #000000; margin: 0px;} /* margin: 0px; required for centered pages */
+img					{border: 0px;} /* Compatibility Fix */
+h1 					{text-align: center; font-size: 3em; margin: 0px;}  /* Header Title */
+h2					{font-size: 1.2em;}  /* Section Titles */
+a:link				{text-decoration: underline; color: #BBBBBB;}
+a:visited			{text-decoration: none; color: #DDDDDD;}
+a:active			{text-decoration: none; color: #555555;}
+a:hover				{text-decoration: none; color: #FFFFFF;}
+select				{padding: 0px; margin: 0px; color: #FFFFFF; background-color: #000000; border: 1px #FFFFFF solid;}
+textarea			{color: #FFFFFF; background-color: #000000; border: 1px #FFFFFF solid;}
+.main				{width: 951px; margin-left: auto; margin-right: auto; border: 2px solid #AAAAAA;}
+.nav			 	{width: 136px; min-height: 100%; float: left;}
+.content			{width: 815px; height: 100%; margin-left: 136px;}
+.footer				{width: 951px; clear: both; padding-top: 20px; text-align: center; font-size: .8em;}
+.pagenumbers		{width: 815px; clear: both; padding-top: 20px; text-align: center; font-size: .8em;}
+.cpform				{width: 815px; float: left;}
+.cpform div input	{width: 275px; color: #FFFFFF; background-color: #000000; border: 1px #FFFFFF solid; border-radius: 5px; padding-left: 2px; padding-right: 2px;}
+.submit				{padding: 30px; text-align: center;}
+.submitbox			{width: 60px;}
+.messages			{text-align: center; width: 815px; margin-top: 20px;}
+.entrya 			{font-weight: bold; width: 110px; float: left; clear: both;}
+.textbody			{margin-left: 110px;}
+.archive			{font-weight: bold;}
+.fulldrop			{width: 277px;}
+.col				{float:left; width: 407px; text-align: center;}
+.edirow				{padding-left: 28px; width: 815px; margin: 0 auto; margin-bottom: 2px;}
+.pimg				{width: 180px; height: 220px; float: left; border: 2px solid #AAAAAA; padding: 2px; margin: 2px;}
+.pimg div			{display: table; overflow: hidden; height:240px;}
+.pimg div div		{display: table-cell; vertical-align: middle;}
+.pimg div div div	{width: 180px; text-align: center;}
+.prorow				{width: 710px; margin: 0 auto; margin-bottom: 2px;}
+.footer1			{clear: both; padding-top: 20px;}
